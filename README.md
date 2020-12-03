@@ -14,6 +14,7 @@ iv. Search.js — Contains a form with the input element and the search button, 
 
 
 ##Q&A 
+
 Q : Does the Final Project only like the demo ? 
 A : Yes, it does. If you want try anything seems like details it would be good
 
