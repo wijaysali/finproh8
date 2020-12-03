@@ -83,10 +83,10 @@ const App = () => {
   return (
     <div className="App">
       <div className="Nav">
-        <Header text="HOOKED" />
+        <Header text="FinProH8" />
         <Search search={search} />
       </div>
-      <p className="App-intro">Sharing a few of our favorite movies</p>
+      <p className="App-intro">Show your favorite movies</p>
       <div className="movies">
         {loading && !errorMessage ? (
           <span className="loader"></span>
