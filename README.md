@@ -7,9 +7,13 @@ FinProH8 is a simple App to show Movies List From 3rd Parties Data. Please note 
    Get API_KEY from http://www.omdbapi.com/apikey.aspx using fetch or axios allowed.
 3. Simplied your react state into functional component using react-hooks applied (UseState, useEffect, useReducer).
 4. Functional Component Based, details : 
+
 i.App.js — It will be the parent component for the other 3. It will also contain the function that handles the API request and it will have  a function that calls the API during the component’s initial render.
+
 ii. Header.js — A simple component that renders the app header and accepts a title prop
+
 iii. Movie.js — It renders each movie. The movie object is simply passed into it as props.
+
 iv. Search.js — Contains a form with the input element and the search button, contains functions that handle the input element and resets the field, and also contains a function that calls the search function which is passed as props to it.
 
 
